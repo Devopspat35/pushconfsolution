@@ -1,6 +1,5 @@
-FROM tomcat:8.0.20-jre8
-#### Good stuff
-## jesus is Lord
-# thanks team members
-pat is Devops and Devops is pat
-COPY target/*.war /usr/local/tomcat/webapps/maven-web-app.war
+FROM tomcat:jre10
+# "it came to me line a giant hammer struck against a paper-towel and it came right back to me !!!"
+# Think-with-Tech guru
+# Pat.a.focha is DevSecOps and DevSecOps is me
+COPY target/*.war /usr/local/tomcat/webapps/twtech.war
